@@ -1,4 +1,4 @@
-module github.com/mnadev/adhango
+module github.com/furkan000/adhango
 
 go 1.19
 
