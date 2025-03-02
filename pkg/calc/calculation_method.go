@@ -9,6 +9,8 @@ const (
 	MUSLIM_WORLD_LEAGUE
 	// Egyptian General Authority of Survey
 	// Uses Fajr angle of 19.5 and an Isha angle of 17.5
+	TURKEY
+	// Diyanet
 	EGYPTIAN
 	// University of Islamic Sciences, Karachi
 	// Uses Fajr angle of 18 and an Isha angle of 18
@@ -48,6 +50,10 @@ func GetMethodParameters(method CalculationMethod) *CalculationParameters {
 		cpb.SetFajrAngle(18.0).
 			SetIshaAngle(17.0).
 			SetMethodAdjustments(PrayerAdjustments{DhuhrAdj: 1})
+	case TURKEY:
+		cpb.SetFajrAngle(18.0).
+			SetIshaAngle(17.0).
+			SetMethodAdjustments(PrayerAdjustments{SunriseAdj: -7, DhuhrAdj: 5, AsrAdj: 4, MaghribAdj: 7})
 	case EGYPTIAN:
 		cpb.SetFajrAngle(19.5).
 			SetIshaAngle(17.5).
