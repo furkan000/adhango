@@ -3,7 +3,7 @@ package util
 import (
 	"math"
 
-	data "github.com/mnadev/adhango/pkg/data"
+	data "github.com/furkan000/adhango/pkg/data"
 )
 
 type SolarTime struct {

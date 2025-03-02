@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	data "github.com/mnadev/adhango/pkg/data"
+	data "github.com/furkan000/adhango/pkg/data"
 	"github.com/stretchr/testify/assert"
 )
 

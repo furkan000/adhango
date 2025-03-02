@@ -1,7 +1,7 @@
 package calc
 
 import (
-	util "github.com/mnadev/adhango/pkg/util"
+	util "github.com/furkan000/adhango/pkg/util"
 )
 
 type AsrJuristicMethod int64

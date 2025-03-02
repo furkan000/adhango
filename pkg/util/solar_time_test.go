@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	data "github.com/mnadev/adhango/pkg/data"
+	data "github.com/furkan000/adhango/pkg/data"
 )
 
 func TestSolarTime(t *testing.T) {

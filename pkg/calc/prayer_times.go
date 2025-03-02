@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	data "github.com/mnadev/adhango/pkg/data"
-	util "github.com/mnadev/adhango/pkg/util"
+	data "github.com/furkan000/adhango/pkg/data"
+	util "github.com/furkan000/adhango/pkg/util"
 )
 
 type PrayerTimes struct {
